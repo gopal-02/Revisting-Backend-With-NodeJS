@@ -1,0 +1,27 @@
+{
+  "name": "revisiting-backend-concepts",
+  "version": "1.0.0",
+  "description": "revising backend using node",
+  "homepage": "https://github.com/gopal-02/Revisting-Backend-With-NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/gopal-02/Revisting-Backend-With-NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopal-02/Revisting-Backend-With-NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "Gopal Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.11",
+    "eslint": "8.45.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
