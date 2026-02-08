@@ -24,7 +24,7 @@ const server = http.createServer((req, res) => {
         res.write(JSON.stringify({ name: 'John', age: 30 }));
     } else if (req.url === '/about') {
         res.writeHead(200, { 'Content-Type': 'text/json' });
-        res.write(JSON.stringify({ company: 'Tech Co', location: 'New York' }));
+        res.write(JSON.stringify({ company: 'Gopal', location: 'New York' }));
     } else {
         res.writeHead(404, { 'Content-Type': 'text/plain' });
         res.write('Page not found');
